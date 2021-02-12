@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Snell Roundhand';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Snell Roundhand';
+  font-weight: normal;
+  font-size: 3.5em;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+}
+
+.section__box {
+  padding: 1em;
+}
+
+.section__box1 {
+  border-right: 1px solid black;
+}
+.section__box2 {
+  border-right: 1px solid black;
+}
+
+.section__bottom {
+  border: 2px solid black;
+}
+
+.section__bottom {
+  display: flex;
+}
+
+.section__bottom__box1 {
+  align-items: center;
+  border-right: 1px solid black;
+  width: 25%;
+}
+
+.section__bottom__box2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.section__bottom__box2__title__politics {
+  background-color: bisque;
+}
