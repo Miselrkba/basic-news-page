@@ -20,6 +20,7 @@ h2 {
   font-family: 'Snell Roundhand';
   font-weight: normal;
   font-size: 3.5em;
+  margin-top: 0;
 }
 
 .section {
@@ -56,9 +57,44 @@ h2 {
 .section__bottom__box2 {
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 75%;
 }
 
 .section__bottom__box2__title__politics {
   background-color: bisque;
+}
+.section__bottom__box2__title__tech {
+  background-color: lightblue;
+}
+.section__bottom__box2__title__local {
+  background-color: lightgreen;
+}
+.section__bottom__box2__title__opinion {
+  background-color: #74b9ff;
+}
+.section__bottom__box2__title__sports {
+  background-color: violet;
+}
+
+.site__section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.section__bottom__box2__link {
+  text-decoration: none;
+  font-size: 2em;
+  padding-left: 1em;
+  font-weight: 500;
+}
+
+.section__box2__puppy__img {
+  object-fit: cover;
+  width: 100%;
+  height: 20em;
 }
