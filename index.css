@@ -12,6 +12,11 @@ h2 {
   font-family: 'Snell Roundhand';
   font-weight: normal;
   font-style: italic;
+  padding: 0.3em;
+}
+
+p {
+  padding: 0.5em;
 }
 
 .header {
@@ -29,15 +34,20 @@ h2 {
   border: 2px solid black;
 }
 
-.section__box {
+/* .section__box {
   padding: 1em;
-}
+} */
 
 .section__box1 {
   border-right: 1px solid black;
+  flex: 1;
 }
 .section__box2 {
   border-right: 1px solid black;
+  flex: 2;
+}
+.section__box3 {
+  flex: 1;
 }
 
 .section__bottom {
@@ -59,7 +69,7 @@ h2 {
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
-  padding: 0;
+  padding: 0em;
   margin: 0;
   width: 75%;
 }
@@ -94,7 +104,8 @@ h2 {
 }
 
 .section__box2__puppy__img {
-  object-fit: cover;
-  width: 100%;
-  height: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
