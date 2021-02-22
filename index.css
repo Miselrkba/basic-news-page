@@ -34,10 +34,6 @@ p {
   border: 2px solid black;
 }
 
-/* .section__box {
-  padding: 1em;
-} */
-
 .section__box1 {
   border-right: 1px solid black;
   flex: 1;
